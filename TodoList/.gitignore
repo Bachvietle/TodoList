@@ -1,0 +1,17 @@
+# --- IntelliJ & IDE Files ---
+.idea/
+*.iml
+*.iws
+.vscode/
+
+# --- Build files ---
+target/
+**/target/
+*.class
+
+# --- SECURITY: Chặn file application.properties ở BẤT KỲ đâu ---
+# Dấu ** giúp tìm file này dù nó nằm sâu trong thư mục con nào
+**/src/main/resources/application.properties
+
+# --- Log files ---
+*.log
